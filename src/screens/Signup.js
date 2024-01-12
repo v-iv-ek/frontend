@@ -53,7 +53,7 @@ function Signup() {
                         <input type="text" className="form-control" id="exampleInputAddress" placeholder="Address" name='geolocation' value={credentials.geolocation} onChange={onChange} />
                     </div>
 
-                   <Link to='/login'><button type="submit" className="m-3 btn btn-success">Submit</button></Link> 
+                   <button type="submit" className="m-3 btn btn-success">Submit</button> 
                     <Link to='/login' className='m-3 btn btn-danger'>Already a user</Link>
                 </form>
             </div>
